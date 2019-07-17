@@ -1,2 +1,55 @@
+$navbar-default-bg:#3a969e;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+#logo{
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.navbar-default{
+    margin: 0px;
+    border-radius: 0px;
+}
+
+#logo:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.center{
+    text-align: center;
+    margin: 0px;
+    background-image: asset-url('download.png');
+    background-size: cover;
+    height: 620px;
+    padding-top: 150px;
+    color: #fff;
+    
+
+}
+.center h1{
+    letter-spacing: -1px;
+    font-weight: bold;
+    padding-bottom: 80px;
+}
+
+.center .jb{
+    color: #fff;
+    background: #496eb8;
+    font-size: 1.7em;
+}
+
+footer{
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
+    text-align: center;
+    padding-bottom: 10px;
+}
