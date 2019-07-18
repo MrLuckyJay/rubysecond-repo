@@ -1,5 +1,9 @@
-<h1>New Article</h1>
+<h1 style="text-align: center">Create an Article</h1>
 
 <%= render 'form', article: @article %>
+    <div style="margin-bottom: 95px; text-align:center; margin-top:0px;">
+            <%= link_to 'Cancel Request and Return to Articles', articles_path, class:'btn btn-danger' %>
 
-<%= link_to 'Back', articles_path %>
+    </div>
+        
+
